@@ -10,4 +10,4 @@ permalink: /:year/:month/:day/:title/
 plugins:
   - jekyll-paginate
 minima:
-skin: dark   # options: auto, dark, classic, solarized, etc.
+  skin: dark   # options: auto, dark, classic, solarized, etc.
