@@ -1,0 +1,14 @@
+title: Hela Nomad Blog
+tagline: Culture, history, and journeys across Sri Lanka & beyond
+description: Essays, notes, and research logs by Hela Nomad.
+url: https://blog.helanomad.com
+baseurl: ""            # keep empty for a custom domain at site root
+theme: minima
+paginate: 5
+paginate_path: "/page:num"
+permalink: /:year/:month/:day/:title/
+author:
+  name: Hela Nomad
+  email: helanomad.contact@gmail.com
+plugins:
+  - jekyll-paginate
