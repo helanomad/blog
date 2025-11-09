@@ -8,6 +8,7 @@ paginate: 5
 paginate_path: "/page:num"
 permalink: /:year/:month/:day/:title/
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate
 minima:
   skin: dark   # options: auto, dark, classic, solarized, etc.
