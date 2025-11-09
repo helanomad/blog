@@ -3,17 +3,11 @@ tagline: Culture, history, and journeys across Sri Lanka & beyond
 description: Essays, notes, and research logs by Hela Nomad.
 url: https://blog.helanomad.com
 baseurl: ""            # keep empty for a custom domain at site root
-
-# Use remote theme instead of the older GitHub Pages-bundled one
-remote_theme: jekyll/minima
-
-plugins:
-  - jekyll-remote-theme
-  - jekyll-paginate
-
+theme: minima
 paginate: 5
 paginate_path: "/page:num"
 permalink: /:year/:month/:day/:title/
-
+plugins:
+  - jekyll-paginate
 minima:
-  skin: dark   # options: auto, dark, classic, solarized, etc.
+skin: dark   # options: auto, dark, classic, solarized, etc.
